@@ -64,7 +64,7 @@ If you want to run Join locally:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/davidlreg/join.git
+   git clone https://github.com/ayxcodes/join.git
    ```
 2. **Navigate to the project directory**
    ```sh
