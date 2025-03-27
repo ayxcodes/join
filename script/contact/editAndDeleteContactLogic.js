@@ -123,7 +123,7 @@ async function updateContactInDatabase(contactId, updatedData) {
  * @returns {string} The URL for the PATCH request.
  */
 function buildContactUrl(contactId) {
-  return `https://join-demo-3fe50-default-rtdb.europe-west1.firebasedatabase.app/Data/Contacts/${contactId}.json`;
+  return `https://join-backend-7a8a9-default-rtdb.europe-west1.firebasedatabase.app/Data/Contacts/${contactId}.json`;
 }
 
 /**
@@ -168,7 +168,7 @@ async function deleteContactData(contactId) {
  * @param {string} contactId - The ID of the contact to remove.
  */
 async function deleteContactInDatabase(contactId) {
-  const url = `https://join-demo-3fe50-default-rtdb.europe-west1.firebasedatabase.app/Data/Contacts/${contactId}.json`;
+  const url = `https://join-backend-7a8a9-default-rtdb.europe-west1.firebasedatabase.app/Data/Contacts/${contactId}.json`;
 
   const response = await fetch(url, {
     method: "DELETE",
